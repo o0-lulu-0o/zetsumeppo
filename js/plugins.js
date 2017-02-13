@@ -3,5 +3,9 @@
 var $plugins =
 [
 {"name":"AdjustPictureGraphical","status":true,"description":"ピクチャのグラフィカルな位置調整プラグイン。\r\nパラメータを変更したら「プロジェクトの保存」（Ctrl+S）","parameters":{"グリッドサイズ":"48","テストマップID":"-1"}},
-{"name":"SceneSoundTest","status":true,"description":"サウンドテストプラグイン","parameters":{"コマンド名称":"スマホ音楽プレイヤー","タイトルに追加":"OFF","メニューに追加":"OFF","音量名称":"音量","ピッチ名称":"ピッチ","位相名称":"位相","背景ピクチャ":"","読込形式":"CSV"}}
+{"name":"SceneSoundTest","status":false,"description":"サウンドテストプラグイン","parameters":{"コマンド名称":"スマホ音楽プレイヤー","タイトルに追加":"OFF","メニューに追加":"OFF","音量名称":"音量","ピッチ名称":"ピッチ","位相名称":"位相","背景ピクチャ":"","読込形式":"CSV"}},
+{"name":"TitleCommandPosition","status":true,"description":"タイトルコマンドウィンドウの位置を変更します。","parameters":{"Offset X":"270","Offset Y":"-100","Width":"220","Background":"0"}},
+{"name":"PD_DelayTitle","status":true,"description":"タイトル画面の各画像の表示にディレイとフェードイン機能を追加します。","parameters":{"Delay BG1":"0","Fade BG1":"60","Delay BG2":"60","Fade BG2":"60","Delay Title":"120","Fade Title":"60","Delay Command":"180","Pass To Decide":"1"}},
+{"name":"AltSaveScreen","status":true,"description":"セーブ／ロード画面のレイアウトを変更します。","parameters":{}},
+{"name":"AltMenuScreen","status":true,"description":"メニュー画面のレイアウトを変更します。","parameters":{}}
 ];
